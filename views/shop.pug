@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title #{docTitle}
+        link(rel="stylesheet", href="/css/main.css")
+        link(rel="stylesheet", href="/css/product.css")
+    body
+        header.main-header
+            nav.main-header__nav
+                ul.main-header__item-list
+                    li.main-header__item
+                        a.active(href="/") Shop
+                    li.main-header__item
+                        a(href="/admin/add-product") Add Product
+        main
+                .grid
+                    each product in prods
+                        article.card.product-item
+                            header.card__header
+                                h1.product__title #{product.title}
+                            div.card__image
+                                img(src="https://cdn.shopify.com/s/files/1/0049/9332/products/Roadster_Classic_Gloss_Black_2019_Profile.jpg?v=1557789177", alt="A Book")
+                            div.card__content
+                                h2.product__price $399
+
+                                p.product__description The Roadster was designed to be your go-to everyday bike. A timeless profile inspired by French and Italian steel bikes from the 50’s and 60’s. It’s your choice for quick rides to the market or work, and leisurely trips along the avenue.
+                            .card__actions
+                                button.btn Add to Cart
+
