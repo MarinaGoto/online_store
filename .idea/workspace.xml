@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e620e7a3-b5b8-471a-babd-ace0c57de450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/path.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
       <updated>1578490560786</updated>
       <workItem from="1578490562231" duration="6240000" />
       <workItem from="1578645759048" duration="6994000" />
-      <workItem from="1578665188441" duration="11045000" />
+      <workItem from="1578665188441" duration="13967000" />
     </task>
     <task id="LOCAL-00001" summary="- handle 404">
       <created>1578994214118</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578995824299</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- add 404 page">
+      <created>1578996848667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578996848667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +113,8 @@
     <MESSAGE value="- handle 404" />
     <MESSAGE value="- add views html" />
     <MESSAGE value="- connect routes to html" />
-    <option name="LAST_COMMIT_MESSAGE" value="- connect routes to html" />
+    <MESSAGE value="- add 404 page" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add 404 page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

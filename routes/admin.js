@@ -3,12 +3,14 @@ const path = require('path');
 // This route will handle the creation of the products which admin can do
 const express = require('express');
 
+const rootDir = require('../util/path');
+
 // router is like a mini Express app pluggable into the other express app
 const router = express.Router();
 
 // This route is reach under /admin/add-product => GET
 router.get('/add-product', (req, res, next) => {
-  res.sendFile(path.join(__dirname, '..', 'views', 'add-product.html'));
+  res.sendFile(path.join(rootDir, 'views', 'add-product.html'));
 });
 
 // /admin/add-product => POST
