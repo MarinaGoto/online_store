@@ -9,7 +9,12 @@ const shopRoutes = require('./routes/shop');
 // This registers the middleware and calls next() at the end
 app.use(bodyParser.urlencoded({extended: false}));
 
+// Here the order is matter
 app.use(adminRoutes);
 app.use(shopRoutes);
+
+app.use((req, res, next) =>{
+  res.status(404).send('<h1>Page not found</h1>');
+});
 
 app.listen(3000);
