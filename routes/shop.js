@@ -12,7 +12,7 @@ const router = express.Router();
 // get makes sure that it's a get method & that it's exactly this path ('/')
 router.get('/', (req, res, next) => {
   const products = adminData.products;
-  res.render('shop', {prods: products, docTitle: 'Online Shop'});
+  res.render('shop', {prods: products, pageTitle: 'Online Shop', path: '/'});
 });
 
 module.exports = router;

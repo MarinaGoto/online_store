@@ -35,9 +35,9 @@ main {
     text-decoration: none;
     color: cadetblue;
 }
-.main-header_item a:hover,
-.main-header_item a:active,
-.main-header_item a.active {
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
     color: #ffffff;
 }
 .grid {
