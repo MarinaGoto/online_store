@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e620e7a3-b5b8-471a-babd-ace0c57de450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/404.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add-product.pug" afterDir="false" />
+    <list default="true" id="e620e7a3-b5b8-471a-babd-ace0c57de450" name="Default Changelist" comment="- add pug add-product, 404">
+      <change afterPath="$PROJECT_DIR$/views/layouts/main-layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +66,7 @@
       <workItem from="1578490562231" duration="6240000" />
       <workItem from="1578645759048" duration="6994000" />
       <workItem from="1578665188441" duration="18905000" />
-      <workItem from="1579008975964" duration="6018000" />
+      <workItem from="1579008975964" duration="6688000" />
     </task>
     <task id="LOCAL-00001" summary="- handle 404">
       <created>1578994214118</created>
@@ -123,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579013065692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- add pug add-product, 404">
+      <created>1579017570669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579017570669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +151,8 @@
     <MESSAGE value="- add root dir util&#10;- add styling" />
     <MESSAGE value="- add templating &#10;- add outputting dynamic content" />
     <MESSAGE value="- add outputting conditional content" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add outputting conditional content" />
+    <MESSAGE value="- add pug add-product, 404" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add pug add-product, 404" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
