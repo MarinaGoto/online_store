@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e620e7a3-b5b8-471a-babd-ace0c57de450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +58,7 @@
       <workItem from="1578490562231" duration="6240000" />
       <workItem from="1578645759048" duration="6994000" />
       <workItem from="1578665188441" duration="18905000" />
-      <workItem from="1579008975964" duration="1911000" />
+      <workItem from="1579008975964" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="- handle 404">
       <created>1578994214118</created>
@@ -105,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579002241081</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- add templating &#10;- add outputting dynamic content">
+      <created>1579011271244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579011271244</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +127,8 @@
     <MESSAGE value="- connect routes to html" />
     <MESSAGE value="- add 404 page" />
     <MESSAGE value="- add root dir util&#10;- add styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add root dir util&#10;- add styling" />
+    <MESSAGE value="- add templating &#10;- add outputting dynamic content" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add templating &#10;- add outputting dynamic content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

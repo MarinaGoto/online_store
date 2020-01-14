@@ -16,6 +16,7 @@ html(lang="en")
                     li.main-header__item
                         a(href="/admin/add-product") Add Product
         main
+            if prods.length > 0
                 .grid
                     each product in prods
                         article.card.product-item
@@ -29,4 +30,6 @@ html(lang="en")
                                 p.product__description The Roadster was designed to be your go-to everyday bike. A timeless profile inspired by French and Italian steel bikes from the 50’s and 60’s. It’s your choice for quick rides to the market or work, and leisurely trips along the avenue.
                             .card__actions
                                 button.btn Add to Cart
+            else
+                h1 No Products
 
