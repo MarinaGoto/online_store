@@ -12,7 +12,15 @@ const router = express.Router();
 // get makes sure that it's a get method & that it's exactly this path ('/')
 router.get('/', (req, res, next) => {
   const products = adminData.products;
-  res.render('shop', {prods: products, pageTitle: 'Online Shop', path: '/'});
+  res.render('shop', {
+    prods: products,
+    pageTitle: 'Online Shop',
+    path: '/',
+    hasProducts: products.length > 0,
+    activeShop: true,
+    productCSS: true
+    // by default it will render the default layout if we do not set layout: false
+  });
 });
 
 module.exports = router;

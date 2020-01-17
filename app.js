@@ -2,11 +2,20 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const expressHbs = require('express-handlebars');
 
 const app = express();
 
-// Here we tell express that we want to compiler dynamic templates with the pug engine and where to find these templates ('views')
-app.set('view engine', 'pug');
+// Here we tell express that we want to compiler dynamic templates with the handlebars engine and where to find these templates ('views')
+// Here we register the engine
+app.engine(
+    'hbs',
+    expressHbs({
+      layoutsDir: 'views/layouts/',
+      defaultLayout: 'main-layout',
+      extname: 'hbs'
+    }));
+app.set('view engine', 'hbs');
 app.set('views', 'views');
 
 const adminData = require('./routes/admin');
