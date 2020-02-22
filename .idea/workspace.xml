@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e620e7a3-b5b8-471a-babd-ace0c57de450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/404.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add-product.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/includes/end.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/includes/head.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +67,8 @@
       <workItem from="1579252277329" duration="327000" />
       <workItem from="1579252707926" duration="1999000" />
       <workItem from="1579262163026" duration="2351000" />
-      <workItem from="1579264577515" duration="2851000" />
+      <workItem from="1579264577515" duration="3450000" />
+      <workItem from="1582399080253" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="- handle 404">
       <created>1578994214118</created>
@@ -154,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579264387762</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- add Layout with Partials">
+      <created>1579267772677</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579267772677</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +185,8 @@
     <MESSAGE value="- add mai-layout" />
     <MESSAGE value="- add dynamic title, active class" />
     <MESSAGE value="- add handelbars templating" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add handelbars templating" />
+    <MESSAGE value="- add Layout with Partials" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add Layout with Partials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
